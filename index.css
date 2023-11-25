@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: monospace;
+}
+
+input{
+    width: 80%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.crear-cuenta{
+    margin-top: 10%;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+
+}
+
+#submit-registro{
+    width: 80%;
+    padding: 1%;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iniciar-sesion{
+    background-color: rgba(0, 0, 0, 0.138);
+    display: flex;
+    padding: 1%;
+    align-items: center;
+}
+
+.iniciar-sesion input{
+    width: 30%;
+    height: 8px;
+    border-radius: 3px;
+    border: none;
+}
+
+#btn-login{
+    background-color: #141e30;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    color: white;
+    transition: all 500ms ease;
+
+}
+
+#btn-login:hover{
+    background-color: #243B55;
+    transition: all 500ms ease;
+}
+
+.php-error{
+    background-color: rgba(249, 148, 148, 0.7);
+    width: fit-content;
+    padding: 1%;
+    border-radius: 3px;
+    color: rgb(102, 0, 0);
+    font-family:monospace;
+    margin: 3%;
+}
+
+#error-icon{
+    margin-top: 10px;
+}
+
